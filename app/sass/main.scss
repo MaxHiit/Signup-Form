@@ -1,0 +1,111 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   font-family: 'Poppins', sans-serif;
+   min-height: 100vh;
+   position: relative;
+   color: #fff;
+   background-color: hsl(0, 100%, 74%);
+   opacity: 1;
+}
+
+body::after {
+   content: " ";
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   z-index: 0;
+   background: url(/images/bg-intro-mobile.png);
+}
+
+.container {
+   position: relative;
+   z-index: 1;
+   width: 85%;
+   margin: auto;
+   min-width: 320px;
+}
+
+.content--first {
+   padding-top: 4em;
+   text-align: center;
+
+   .first__title {
+      padding: 0 .5em 1em .5em;
+   }
+}
+
+.content--secondary {
+   padding: 2em 0;
+
+   .secondary__price {
+      width: 100%;
+      background: hsl(248, 32%, 49%);
+      border-radius: 1em;
+      text-align: center;
+
+      .price__text {
+         font-size: 15px;
+         padding: 1em 2em;
+
+         &--bold {
+            font-weight: 700;
+         }
+      }
+   }
+
+   .secondary__form {
+      background: #fff;
+      border-radius: 1em;
+      margin-top: 2em;
+      width: 100%;
+
+      .form__container {
+         display: flex;
+         flex-direction: column;
+         justify-content: space-between;
+         align-items: center;
+         width: 80%;
+         margin: auto;
+         padding: 2em 0;
+
+         input {
+            border-radius: .5em;
+            border: .5px solid hsl(246, 25%, 77%);
+            width: 100%;
+            padding: 1em 0 1em 1em;
+            margin-bottom: 1em;
+         }
+
+         .submit--button {
+            font-size: 14px;
+            font-weight: 600;
+            text-transform: uppercase;
+            text-align: center;
+            width: 100%;
+            padding: 1em 0;
+            background: hsl(154, 59%, 51%);
+            border: none;
+            border-radius: .5em;
+            color: #fff;
+         }
+
+         p {
+            text-align: center;
+            font-size: 10px;
+            padding: 1em;
+            color: hsl(246, 25%, 77%);
+
+            .termsNservices--colored {
+               color: hsl(0, 100%, 74%);
+            }
+         }
+      }
+   }
+}
