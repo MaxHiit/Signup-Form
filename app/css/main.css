@@ -31,6 +31,7 @@ body::after {
   width: 85%;
   margin: auto;
   min-width: 320px;
+<<<<<<< HEAD
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -47,11 +48,14 @@ body::after {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   height: 100vh;
+=======
+>>>>>>> ed4c38efba97ad6eabe7abb1565d24c08b4c7070
 }
 
 .content--first {
   padding-top: 4em;
   text-align: center;
+<<<<<<< HEAD
   max-width: 500px;
 }
 
@@ -59,12 +63,15 @@ body::after {
   .content--first {
     text-align: left;
   }
+=======
+>>>>>>> ed4c38efba97ad6eabe7abb1565d24c08b4c7070
 }
 
 .content--first .first__title {
   padding: 0 .5em 1em .5em;
 }
 
+<<<<<<< HEAD
 @media screen and (min-width: 768px) {
   .content--first .first__title {
     padding: 0 0 1em 0;
@@ -88,15 +95,24 @@ body::after {
     width: 100%;
     padding: 0;
   }
+=======
+.content--secondary {
+  padding: 2em 0;
+>>>>>>> ed4c38efba97ad6eabe7abb1565d24c08b4c7070
 }
 
 .content--secondary .secondary__price {
   width: 100%;
   background: #6055a5;
+<<<<<<< HEAD
   border-radius: .5em;
   text-align: center;
   -webkit-box-shadow: 0 10px 0 rgba(66, 66, 67, 0.2);
           box-shadow: 0 10px 0 rgba(66, 66, 67, 0.2);
+=======
+  border-radius: 1em;
+  text-align: center;
+>>>>>>> ed4c38efba97ad6eabe7abb1565d24c08b4c7070
 }
 
 .content--secondary .secondary__price .price__text {
@@ -110,11 +126,17 @@ body::after {
 
 .content--secondary .secondary__form {
   background: #fff;
+<<<<<<< HEAD
   border-radius: .5em;
   margin-top: 2em;
   width: 100%;
   -webkit-box-shadow: 0 10px 0 rgba(66, 66, 67, 0.2);
           box-shadow: 0 10px 0 rgba(66, 66, 67, 0.2);
+=======
+  border-radius: 1em;
+  margin-top: 2em;
+  width: 100%;
+>>>>>>> ed4c38efba97ad6eabe7abb1565d24c08b4c7070
 }
 
 .content--secondary .secondary__form .form__container {
@@ -136,6 +158,7 @@ body::after {
   padding: 2em 0;
 }
 
+<<<<<<< HEAD
 .content--secondary .secondary__form .form__container .container--input {
   margin-bottom: 1em;
   width: 100%;
@@ -143,10 +166,14 @@ body::after {
 }
 
 .content--secondary .secondary__form .form__container .container--input input {
+=======
+.content--secondary .secondary__form .form__container input {
+>>>>>>> ed4c38efba97ad6eabe7abb1565d24c08b4c7070
   border-radius: .5em;
   border: 0.5px solid #b9b6d3;
   width: 100%;
   padding: 1em 0 1em 1em;
+<<<<<<< HEAD
   color: #3d3c49;
   font-weight: 700;
 }
@@ -177,6 +204,9 @@ body::after {
   padding-top: .3em;
   color: #900;
   display: none;
+=======
+  margin-bottom: 1em;
+>>>>>>> ed4c38efba97ad6eabe7abb1565d24c08b4c7070
 }
 
 .content--secondary .secondary__form .form__container .submit--button {
@@ -192,6 +222,7 @@ body::after {
   color: #fff;
 }
 
+<<<<<<< HEAD
 .content--secondary .secondary__form .form__container .submit--button:hover {
   opacity: .7;
   border-bottom: 3px solid #3e3c49;
@@ -201,6 +232,8 @@ body::after {
   outline: none !important;
 }
 
+=======
+>>>>>>> ed4c38efba97ad6eabe7abb1565d24c08b4c7070
 .content--secondary .secondary__form .form__container p {
   text-align: center;
   font-size: 10px;
